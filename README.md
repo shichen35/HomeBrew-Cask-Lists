@@ -20,4 +20,8 @@ filezilla           iterm2              pycharm
 github-desktop      itsycal             skype
 google-chrome       java                snip
 
+# cleanup
+brew cleanup --force
+rm -f -r /Library/Caches/Homebrew/*
+
 ```
