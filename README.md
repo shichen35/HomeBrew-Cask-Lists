@@ -7,18 +7,19 @@ Install most of my Apps with homebrew & cask
 
 # brew list
 
-cmake		openssl		readline	xz
-gdbm		python3		sqlite		you-get
-node
+cmake		makedepend	pkg-config	sphinx-doc	you-get
+gdbm		node		python3		sqlite
+icu4c		openssl		readline	xz
 
 # cask list
 
-anydesk             google-drive        kindle              webtorrent
-charles             iina                onedrive            xee
-clion               intellij-idea       playmemories-home   zoomus
-filezilla           iterm2              pycharm             phpstorm
-github-desktop      itsycal             skype
-google-chrome       java                snip
+anydesk             google-drive        kindle              snip
+charles             iina                onedrive            spectacle
+clion               intellij-idea       phpstorm            webtorrent
+filezilla           iterm2              playmemories-home   xee
+github-desktop      itsycal             pycharm             zoomus
+google-chrome       java                skype
+
 
 # cleanup
 brew cleanup --force
