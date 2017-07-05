@@ -13,13 +13,21 @@ icu4c		openssl		readline	xz
 
 # cask list
 
-anydesk             google-drive        kindle              snip
-charles             iina                onedrive            spectacle
-clion               intellij-idea       phpstorm            webtorrent
-filezilla           iterm2              playmemories-home   xee
-github-desktop      itsycal             pycharm             zoomus
-google-chrome       java                skype
-
+adobe-illustrator-cc                       itsycal
+adobe-photoshop-cc                         java
+adobe-photoshop-lightroom                  kindle
+adobe-photoshop-lightroom600               neteasemusic
+anydesk                                    onedrive
+charles                                    phpstorm
+clion                                      pycharm
+commander-one                              qq
+filezilla                                  skype
+github-desktop                             snip
+google-chrome                              spectacle
+google-drive                               webtorrent
+iina                                       xee
+intellij-idea                              zoomus
+iterm2
 
 # cleanup
 brew cleanup --force
