@@ -2,7 +2,6 @@
 
 (set -x; brew update;)
 (set -x; brew upgrade;)
-(set -x; brew cleanup;)
 
 red=`tput setaf 1`
 green=`tput setaf 2`
@@ -17,11 +16,13 @@ do
 
     if [[ -z $installed ]]; then
         echo "${red}${cask}${reset} requires ${red}update${reset}."
-        (set -x; brew cask uninstall $cask --force;)
-        (set -x; brew cask install $cask --force;)
+        read -p "update? (y/n)" goupdate
+        if [ "$goupdate" == "y" ]; then
+          brew cask reinstall $cask
+       fi 
     else
         echo "${red}${cask}${reset} is ${green}up-to-date${reset}."
     fi
 done
 
-(set -x; brew cask cleanup;)
+(set -x; brew cleanup;)
