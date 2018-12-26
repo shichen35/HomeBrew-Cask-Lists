@@ -13,20 +13,15 @@ icu4c		openssl		readline	xz
 
 # cask list
 
-adobe-illustrator-cc                       itsycal
-adobe-photoshop-cc                         java
-adobe-photoshop-lightroom                  kindle
-adobe-photoshop-lightroom600               neteasemusic
+java                       itsycal
 anydesk                                    onedrive
-charles                                    phpstorm
-clion                                      pycharm
-commander-one                              qq
+charles                                    qq
 filezilla                                  skype
-github-desktop                             snip
+github-desktop                             snipaste
 google-chrome                              spectacle
-google-drive                               webtorrent
+webtorrent
 iina                                       xee
-intellij-idea                              zoomus
+zoomus
 iterm2
 
 # cleanup
